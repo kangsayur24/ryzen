@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplikasi Produktivitas - Beranda</title>
+  <!-- Load Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+</head>
+<body>
+  <header class="bg-primary text-white p-3">
+    <div class="container">
+      <h1>Jadwal Kegiatan</h1>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Makan</h5>
+            <p class="card-text">Deskripsi kegiatan 1</p>
+            <p class="card-text">Waktu: 08:00 - 10:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Belajar</h5>
+            <p class="card-text">Deskripsi kegiatan 2</p>
+            <p class="card-text">Waktu: 10:00 - 12:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Istirahat</h5>
+            <p class="card-text">Deskripsi kegiatan 3</p>
+            <p class="card-text">Waktu: 12:00 - 13:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Belajar</h5>
+            <p class="card-text">Deskripsi kegiatan 4</p>
+            <p class="card-text">Waktu: 13:00 - 15:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Ngaji</h5>
+            <p class="card-text">Deskripsi kegiatan 5</p>
+            <p class="card-text">Waktu: 15:00 - 17:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 text-center">
+      <button class="btn btn-primary">Tambah Kegiatan</button>
+      <button onclick="goBack()" class="btn btn-primary">Kembali</button>
+
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+      </script>
+    </div>
+  </div>
+
+
+  <!-- Load Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
